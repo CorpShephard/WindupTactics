@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class boxtest : MonoBehaviour {
+public class boxtest : MonoBehaviour
+{
 
     void OnGUI()
     {
@@ -18,16 +19,18 @@ public class boxtest : MonoBehaviour {
         float height = boxPosHiLeftCamera.y - boxPosLowRightCamera.y;
 
 
-        GUI.Box(new Rect(boxPosHiLeftCamera.x, Screen.height - boxPosHiLeftCamera.y, width, height), "", highlightBox);
+        GUI.Box(new Rect(boxPosHiLeftCamera.x, Screen.Height - boxPosHiLeftCamera.y, width, height), "", highlightBox);
     }
 
     // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 }
